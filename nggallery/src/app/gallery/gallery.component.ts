@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+/*Import the Image model*/
 import {Image} from '../models/image';
 
 @Component({
@@ -13,7 +14,7 @@ export class GalleryComponent implements OnInit {
 
   ngOnInit() {
   }
-  
+  /*selectImage will be call by the event trigger on image-list component*/
   selectImage(image: Image) {
     this.selectedImage = image;
   }

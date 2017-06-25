@@ -1,3 +1,5 @@
+/*Simple ng generated component*/
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({

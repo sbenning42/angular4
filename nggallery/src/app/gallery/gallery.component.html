@@ -1,2 +1,4 @@
+<!-- [foo]="bar" to pass foo (set at the value bar) to child component. Notice that selectImage isn't set befor selectEvent is trigger -->
 <ng-image-detail [selectedImage]="selectedImage"></ng-image-detail>
+<!-- Angular syntax (output)="action". Here we get from our child component (image-list) the selectedImage -->
 <ng-image-list (selectedEvent)="selectImage($event)"></ng-image-list>
