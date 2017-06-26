@@ -30,3 +30,12 @@ Et pourquoi pas une petite vue des fichiers en question ^^.
 Grosbiz
 
 Sam
+
+----------
+
+Sur la page du lien que je t'ai envoyé, tu es déjà dans le dossier "Pascale", tu peux cliquer sur le dossier "Screenshot".
+
+les noms des screenshot sont le plus parlant possible ^^, ils sont par contre affichés en petit, mais un peu au dessus de l'image il y a un bouton "Download"
+si tu veux mieux voir ;)
+
+Grobiz
