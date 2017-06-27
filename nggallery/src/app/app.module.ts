@@ -11,6 +11,7 @@ import { ImageDetailComponent } from './gallery/image-detail/image-detail.compon
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import {routes} from './app.routes';
+import { HttpModule } from '@angular/http';
 
 @NgModule({
 
@@ -26,7 +27,8 @@ import {routes} from './app.routes';
   ],
   imports: [
 	routes,
-    BrowserModule
+    BrowserModule,
+	HttpModule
   ],
   /*Here we say to NgModule that a service named ImageService is running. We can now use this service from every component we want*/
   providers: [ImageService],
