@@ -2,14 +2,16 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { Image } from '../../models/image';
 import {ImageService} from '../../services/image.service';
 
+import {Observable} from 'rxjs/Observable';
+
 @Component({
   selector: 'ng-image-list',
   templateUrl: './image-list.component.html',
   styles: []
 })
 export class ImageListComponent implements OnInit {
-  images: Image[] = [];
-
+  images: Observable<Image[]>;
+	
   @Output() selectedEvent: EventEmitter<Image> = new EventEmitter<Image>();
   constructor(private imageService: ImageService) { }
 
